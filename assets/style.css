@@ -49,11 +49,13 @@ body{
 .bouton h3{
     border: 2px black solid;
     border-radius: 25px;
+    transition: transform .8s;
+    
 }
 .bouton h3:hover{
     background-color: #3F2E56;
+    transform: scale(1.5);
 }
-
 
 .container{
     background-color: #3F2E56;
