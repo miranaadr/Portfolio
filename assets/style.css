@@ -138,21 +138,39 @@ h1 img{
 }
 .formation1{
     padding: 20px;
-    border: 1px chartreuse solid;
+    box-shadow: 0 0 1em 0 black;
+    transition: transform .8s;
     margin-right: 10px;
     width: 300px;
+}
+.formation1:hover{
+    color: #3F2E56;
+    background-color: white;
+    transform: scale(1.2);
 }
 .formation2{
     padding: 20px;
-    border: 1px chartreuse solid;
+    box-shadow: 0 0 1em 0 black;
+    transition: transform .8s;
     margin-right: 10px;
     width: 300px;
 }
+.formation2:hover{
+    color: #3F2E56;
+    background-color: white;
+    transform: scale(1.2);
+}
 .formation3{
     padding: 20px;
-    border: 1px chartreuse solid;
+    box-shadow: 0 0 1em 0 black;
+    transition: transform .8s;
     margin-right: 10px;
     width: 300px;
+}
+.formation3:hover{
+    color: #3F2E56;
+    background-color: white;
+    transform: scale(1.2);
 }
 
 /* SECTION CENTRE D'INTERET*/
