@@ -69,21 +69,49 @@ body{
 h1 img{
     width: 30px;
 }
+
 .experience{
     display: flex;
     background-color: black;
     justify-content: center;
+    padding: 50px;
     
 }
+.experience1{
+    padding: 20px;
+    border: 1px chartreuse solid;
+    margin-right: 10px;
+    width: 300px;
+}
+.experience2{
+    padding: 20px;
+    border: 1px chartreuse solid;
+    margin-right: 10px;
+    width: 300px;
+}
+.experience3{
+    padding: 20px;
+    border: 1px chartreuse solid;
+    margin-right: 10px;
+    width: 300px;
+}
 .competence{
-    display: flex;
+    display: block;
     justify-content: center;
+    background-color: aqua;
 }
 .formation{
     display: flex;
     justify-content: center;
+    background-color: brown;
 }
 .centre-interet{
     display: flex;
     justify-content: center;
+    background-color: chartreuse;
 }
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
