@@ -140,13 +140,20 @@ h1 img{
     margin-right: 10px;
     width: 300px;
 }
+
 /* SECTION CENTRE D'INTERET*/
 .centre-interet{
     display: flex;
+    background-color: black;
     justify-content: center;
-    background-color: chartreuse;
+    padding: 50px;
 }
 
+.centre-interet p{
+    padding: 20px;
+    margin-right: 10px;
+    border: 1px chartreuse solid;
+}
 ul {
     list-style-type: none;
     padding: 0;
