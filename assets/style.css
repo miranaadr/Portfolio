@@ -65,7 +65,7 @@ body{
 h1 img{
     width: 30px;
 }
-
+/* SECTION EXPERIENCE*/
 .experience{
     display: flex;
     background-color: black;
@@ -91,6 +91,8 @@ h1 img{
     margin-right: 10px;
     width: 300px;
 }
+
+/* SECTION COMPETENCE*/
 .competence{
     display: block;
     background-color: burlywood;
@@ -112,16 +114,39 @@ h1 img{
     padding: 20px;
     margin-right: 10px;
 }
+
+/* SECTION FORMATION*/
 .formation{
     display: flex;
+    background-color: black;
     justify-content: center;
-    background-color: brown;
+    padding: 50px;
 }
+.formation1{
+    padding: 20px;
+    border: 1px chartreuse solid;
+    margin-right: 10px;
+    width: 300px;
+}
+.formation2{
+    padding: 20px;
+    border: 1px chartreuse solid;
+    margin-right: 10px;
+    width: 300px;
+}
+.formation3{
+    padding: 20px;
+    border: 1px chartreuse solid;
+    margin-right: 10px;
+    width: 300px;
+}
+/* SECTION CENTRE D'INTERET*/
 .centre-interet{
     display: flex;
     justify-content: center;
     background-color: chartreuse;
 }
+
 ul {
     list-style-type: none;
     padding: 0;
