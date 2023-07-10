@@ -207,6 +207,9 @@ ul {
         justify-content: left;
         margin-left: 0;
     }
+    .bouton-light-dark{
+        display: flex;
+    }
     .information{
         width: 300px;
         display: block;
