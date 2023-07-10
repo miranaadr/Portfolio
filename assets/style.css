@@ -248,6 +248,30 @@ ul {
         display: block;
         font-size: small;
         justify-content: left;
-        margin-left: 0;
+    }
+    .experience{
+        display: block;
+    }
+    .formation{
+        display: block;
+    }
+    .competence{
+        display:block;
+        padding-left:20px;
+    }
+    .competence .langage-programmation{
+        display: flex;
+        justify-content: left;
+    }
+    .competence .langue{
+        display: flex;
+        justify-content: left;
+    }
+    .centre-interet{
+        display:flex;
+        justify-content: left;
+    }
+    h1{
+        text-align: left;
     }
   }
